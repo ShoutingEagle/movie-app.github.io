@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    max-width: 1200px;
+    margin-inline: auto;
+    border: 5px solid rgb(49, 49, 49);
+    padding: 20px;
+}
+
+.App .movies-name{
+    width: 30%;
+    background-color:gray;
+    display: flex;
+    flex-direction: column;
+    gap: 3;
+}
+
+.movies-card{ 
+    border-radius: 8px;
+    margin: 5px;
+    padding: 8px;
+    background-color: rgb(68, 68, 68);
+    color: #FFF;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.movies-card:hover{
+    background-color: rgb(158, 18, 53);
+}
+
+h1{
+    color: rgb(63, 71, 121);
+    font-size: 40px;
+}
+
+.App .movie-details{
+    text-align: center;
+    width: 70%;
+    
+}
+
+
+.movie-details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.movie-details p{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 2rem;
+    color : rgb(138, 71, 71);
+}
+
+.poster{
+    border: 3px solid rgb(43, 43, 43);
+    height: auto;
+    width: auto;
+}
